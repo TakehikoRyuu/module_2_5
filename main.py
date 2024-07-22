@@ -2,8 +2,9 @@
 def get_matrix(n, m, vale):
     result = []
     for i in range(n):
+        result.append([])
         for j in range(m):
-            result.append(vale)
+            result[i].append(vale)
     return result
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
